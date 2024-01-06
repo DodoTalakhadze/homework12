@@ -22,6 +22,7 @@ header form {
   justify-content: space-between;
   width: calc(560 / 1440 * 100%);
   height: 48px;
+  position: relative;
 }
 .border_style_pink {
   border: 1px solid rgba(176, 82, 181, 0.79);
@@ -33,6 +34,7 @@ header input {
   background-color: transparent;
   border: none;
   outline: none;
+  width: 90%;
 }
 .searchButtonResp,
 .logResponsive {
@@ -42,9 +44,15 @@ header form button {
   border-radius: 0px 8px 8px 0px;
   background: #b052b5;
   padding: 16px;
+  display: flex;
   justify-content: center;
   align-items: center;
   border: none;
+  position: absolute;
+  top: -2%;
+  right: -1%;
+
+  height: 48px;
 }
 header div {
   display: flex;
@@ -60,8 +68,8 @@ header div {
   font-weight: 400;
   line-height: 26px;
   border: 1px solid #f30aea;
+  font-family: 'Poppins', sans-serif;
 }
-
 .login:hover {
   color: #f30aea;
   transition: 1s linear;
@@ -105,11 +113,12 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+  font-family: 'Poppins', sans-serif;
 }
 h2:hover {
   text-shadow: none;
 }
-form input {
+section form input {
   background-color: transparent;
   padding-left: 22px;
 }
@@ -130,6 +139,10 @@ section label {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  font-family: 'Poppins', sans-serif;
+}
+::placeholder{
+  font-family: 'Poppins', sans-serif;
 }
 .white_label {
   color: #ffffff;
@@ -236,6 +249,8 @@ textarea {
   font-weight: 700;
   line-height: 26px;
   margin-top: 40px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }
 .send:hover {
   box-shadow: 2px -3px 5px 0 rgb(233, 117, 136);
