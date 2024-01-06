@@ -34,6 +34,10 @@ header input {
   border: none;
   outline: none;
 }
+.searchButtonResp,
+.logResponsive {
+  display: none;
+}
 header form button {
   border-radius: 0px 8px 8px 0px;
   background: #b052b5;
@@ -50,7 +54,6 @@ header div {
 .login {
   background-color: transparent;
   border-radius: 8px;
-  height: 42px;
   padding: 8px 16px;
   color: #fff;
   font-size: 16px;
@@ -65,7 +68,6 @@ header div {
   box-shadow: 0px 2px 5px 0px #c513bc;
 }
 header div button:last-child {
-  height: 42px;
   padding: 13px;
   border-radius: 8px;
   background: #f30aea;
@@ -78,7 +80,6 @@ header i {
 /* section  */
 section {
   background-image: url(../img/cover\ image.png);
-  height: 898px;
   padding: 64px calc(288 / 1440 * 100%);
 }
 section form {
@@ -146,7 +147,6 @@ section label {
   justify-content: start;
   align-items: center;
   gap: 8px;
-  translate: -5px;
 }
 input[type="radio"] {
   appearance: none;
@@ -157,6 +157,7 @@ input[type="radio"] {
   justify-content: center;
   align-items: center;
   position: relative;
+  margin: 0;
 }
 .quest_check input:checked::after {
   content: "";
@@ -209,7 +210,7 @@ textarea {
   justify-content: center;
   align-items: center;
   position: relative;
-  translate: -4px;
+  margin: 0;
 }
 #checkbox:checked::before {
   content: "\f078";
@@ -236,7 +237,7 @@ textarea {
   line-height: 26px;
   margin-top: 40px;
 }
-.send:hover{
+.send:hover {
   box-shadow: 2px -3px 5px 0 rgb(233, 117, 136);
   text-shadow: 2px -2px 2px #6d0743;
   color: rgb(253, 227, 245);

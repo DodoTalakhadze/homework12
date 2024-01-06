@@ -1,0 +1,16 @@
+@media (max-width: 360px) {
+  /* header  */
+  header {
+    padding: 34px 8px;
+  }
+  /* section  */
+  section {
+    padding: 32px calc(14 / 360 * 100%);
+  }
+  section form {
+    padding: 48px calc(6 / 332 * 100%);
+  }
+  form label {
+    font-size: 14px;
+  }
+}
