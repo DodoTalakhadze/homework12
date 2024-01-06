@@ -50,8 +50,7 @@ header form button {
   border: none;
   position: absolute;
   top: -2%;
-  right: -1%;
-
+  right: -0.1%;
   height: 48px;
 }
 header div {
